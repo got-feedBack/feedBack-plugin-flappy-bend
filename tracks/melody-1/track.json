@@ -1,0 +1,53 @@
+{
+  "id": "melody-1",
+  "title": "Blues Phrase",
+  "audio": null,
+  "bpm": 96,
+  "duration_ms": 28000,
+  "instrument": {
+    "string": "B",
+    "fret": 8,
+    "base_note": "G4",
+    "base_freq_hz": 392.00
+  },
+  "max_cents": 220,
+  "bends": [
+    { "t_ms":     0, "cents":   0 },
+    { "t_ms":  2000, "cents":   0 },
+    { "t_ms":  2800, "cents": 100 },
+    { "t_ms":  3600, "cents": 100 },
+    { "t_ms":  4400, "cents":   0 },
+    { "t_ms":  5200, "cents": 200 },
+    { "t_ms":  6400, "cents": 200 },
+    { "t_ms":  7600, "cents":   0 },
+    { "t_ms":  9200, "cents": 150 },
+    { "t_ms": 10400, "cents":   0 },
+    { "t_ms": 11600, "cents": 200 },
+    { "t_ms": 12800, "cents": 100 },
+    { "t_ms": 14000, "cents": 100 },
+    { "t_ms": 15200, "cents":   0 },
+    { "t_ms": 17000, "cents": 200 },
+    { "t_ms": 18800, "cents":   0 },
+    { "t_ms": 20400, "cents": 100 },
+    { "t_ms": 22000, "cents": 200 },
+    { "t_ms": 23600, "cents": 100 },
+    { "t_ms": 25200, "cents":   0 },
+    { "t_ms": 28000, "cents":   0 }
+  ],
+  "music": {
+    "tempo_bpm": 96,
+    "groove": "rock_basic_4_4",
+    "comment": "12-bar-ish blues in G. Lead voice is the player bending G4.",
+    "chords": [
+      { "t_ms":     0, "root": 55, "quality": "7" },
+      { "t_ms":  5000, "root": 60, "quality": "7" },
+      { "t_ms":  7500, "root": 55, "quality": "7" },
+      { "t_ms": 10000, "root": 62, "quality": "7" },
+      { "t_ms": 12500, "root": 60, "quality": "7" },
+      { "t_ms": 15000, "root": 55, "quality": "7" },
+      { "t_ms": 20000, "root": 62, "quality": "7" },
+      { "t_ms": 22500, "root": 60, "quality": "7" },
+      { "t_ms": 25000, "root": 55, "quality": "7" }
+    ]
+  }
+}

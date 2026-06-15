@@ -1,0 +1,43 @@
+{
+  "id": "warmup-1",
+  "title": "Warm-Up Ladder",
+  "audio": null,
+  "bpm": 80,
+  "duration_ms": 24000,
+  "instrument": {
+    "string": "G",
+    "fret": 7,
+    "base_note": "D4",
+    "base_freq_hz": 293.66
+  },
+  "max_cents": 220,
+  "bends": [
+    { "t_ms":     0, "cents":   0 },
+    { "t_ms":  3000, "cents":   0 },
+    { "t_ms":  4500, "cents": 100 },
+    { "t_ms":  6000, "cents":   0 },
+    { "t_ms":  7500, "cents": 200 },
+    { "t_ms":  9000, "cents":   0 },
+    { "t_ms": 10500, "cents": 100 },
+    { "t_ms": 12000, "cents": 100 },
+    { "t_ms": 13500, "cents":   0 },
+    { "t_ms": 15000, "cents": 200 },
+    { "t_ms": 16500, "cents": 200 },
+    { "t_ms": 18000, "cents":   0 },
+    { "t_ms": 21000, "cents": 100 },
+    { "t_ms": 24000, "cents":   0 }
+  ],
+  "music": {
+    "tempo_bpm": 80,
+    "groove": "rock_basic_4_4",
+    "comment": "D-A-G-D progression in D major. Lead voice is the player bending D4 → D#4 → E4.",
+    "chords": [
+      { "t_ms":     0, "root": 50, "quality": "maj" },
+      { "t_ms":  6000, "root": 57, "quality": "maj" },
+      { "t_ms": 12000, "root": 55, "quality": "maj" },
+      { "t_ms": 15000, "root": 57, "quality": "maj" },
+      { "t_ms": 18000, "root": 50, "quality": "maj" },
+      { "t_ms": 21000, "root": 57, "quality": "7"   }
+    ]
+  }
+}

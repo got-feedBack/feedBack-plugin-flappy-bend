@@ -1,0 +1,24 @@
+{
+  "id": "flappy_bend",
+  "name": "Flappy Bend",
+  "version": "0.1.0",
+  "private": false,
+  "script": "game.js",
+  "routes": "routes.py",
+  "minigame": {
+    "title": "Flappy Bend",
+    "tagline": "Bend strings to keep the bird airborne",
+    "type": "chart-free",
+    "scoring": "pitch-continuous",
+    "thumbnail": "thumb.png",
+    "tracks_dir": "tracks",
+    "modifiers": [
+      { "id": "pipe_density", "label": "Pipes", "default": "medium", "values": ["sparse", "medium", "dense"] },
+      { "id": "scroll_speed", "label": "Speed", "default": "normal", "values": ["slow", "normal", "fast"] }
+    ],
+    "unlocks": [
+      { "id": "skin_rocker",   "label": "Rocker bird",   "xp": 100 },
+      { "id": "skin_shredder", "label": "Shredder bird", "xp": 500 }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 # slopsmith-plugin-flappy-bend
 
-A Flappy Bird clone for [Slopsmith](https://github.com/byrongamatos/slopsmith)
+A Flappy Bird clone for [Slopsmith](https://github.com/got-feedback/feedback)
 — but instead of tapping a button, you **bend a guitar string** to position
 the bird.
 
@@ -18,7 +18,7 @@ Score = pipes passed + pitch-accuracy bonus.
 
 ## Requirements
 
-- [`slopsmith-plugin-minigames`](https://github.com/byrongamatos/slopsmith-plugin-minigames) — the framework that hosts this game.
+- [`slopsmith-plugin-minigames`](https://github.com/got-feedback/feedback-plugin-minigames) — the framework that hosts this game.
 
 ## Tracks
 

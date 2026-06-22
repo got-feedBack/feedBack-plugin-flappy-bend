@@ -12,12 +12,40 @@
     "thumbnail": "thumb.png",
     "tracks_dir": "assets/tracks",
     "modifiers": [
-      { "id": "pipe_density", "label": "Pipes", "default": "medium", "values": ["sparse", "medium", "dense"] },
-      { "id": "scroll_speed", "label": "Speed", "default": "normal", "values": ["slow", "normal", "fast"] }
+      {
+        "id": "pipe_density",
+        "label": "Pipes",
+        "default": "medium",
+        "values": [
+          "sparse",
+          "medium",
+          "dense"
+        ]
+      },
+      {
+        "id": "scroll_speed",
+        "label": "Speed",
+        "default": "normal",
+        "values": [
+          "slow",
+          "normal",
+          "fast"
+        ]
+      }
     ],
     "unlocks": [
-      { "id": "skin_rocker",   "label": "Rocker bird",   "xp": 100 },
-      { "id": "skin_shredder", "label": "Shredder bird", "xp": 500 }
+      {
+        "id": "skin_rocker",
+        "label": "Rocker bird",
+        "xp": 100
+      },
+      {
+        "id": "skin_shredder",
+        "label": "Shredder bird",
+        "xp": 500
+      }
     ]
-  }
+  },
+  "category": "game",
+  "description": "Flappy-Bird-style bend-accuracy minigame."
 }

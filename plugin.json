@@ -1,7 +1,7 @@
 {
   "id": "flappy_bend",
   "name": "Flappy Bend",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "script": "game.js",
   "minigame": {

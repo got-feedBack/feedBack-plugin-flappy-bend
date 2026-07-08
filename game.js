@@ -1079,6 +1079,13 @@
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
+  // Node-only export hook for tests; browsers fall through to the async
+  // bootstrap/registration below.
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { interpolateBend, centerInstrumentLabel, escapeHtml };
+    return;
+  }
+
   // ── Register ──────────────────────────────────────────────────────────
   (async function bootstrap() {
     const tracks = await loadTrackIndex();

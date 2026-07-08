@@ -54,7 +54,15 @@ test('interpolateBend returns 0 for empty or missing bends', () => {
 });
 
 test('interpolateBend guards against a zero-width segment (same t_ms twice)', () => {
-    const bends = [{ t_ms: 500, cents: 10 }, { t_ms: 500, cents: 90 }];
+    // Bracket the duplicate t_ms with earlier/later points so t=500 lands in
+    // the interior segment lookup (a[i].t_ms === b[i+1].t_ms) rather than
+    // short-circuiting on the first/last-point clamp.
+    const bends = [
+        { t_ms: 0, cents: 0 },
+        { t_ms: 500, cents: 10 },
+        { t_ms: 500, cents: 90 },
+        { t_ms: 1000, cents: 0 },
+    ];
     // Math.max(1, 0) denominator avoids a divide-by-zero -> finite result.
     const result = mod.interpolateBend(bends, 500);
     assert.ok(Number.isFinite(result));
